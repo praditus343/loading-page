@@ -1,8 +1,8 @@
 /* styles.css */
 
 body {
-  margin: 0; /* Remove default margin */
-  font-family: 'Arial', sans-serif; /* Set font family */
+  margin: 0; 
+  font-family: 'Arial', sans-serif; 
 }
 
 .loading-container {
@@ -10,18 +10,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Set the container to full viewport height */
-  background-color: #7F27FF; /* Set background color to a dark color */
-  color: white; /* Set text color to white */
+  height: 100vh; 
+  background-color: #7F27FF; 
+  color: white; 
 }
 
 .loading-spinner {
-  border: 8px solid #FDBF60; /* Light gray border */
-  border-top: 8px solid #9F70FD; /* Blue border on top */
+  border: 8px solid #FDBF60; 
+  border-top: 8px solid #9F70FD; 
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  animation: spin 1s linear infinite; /* Apply rotation animation */
+  animation: spin 1s linear infinite; 
 }
 
 @keyframes spin {
@@ -29,4 +29,3 @@ body {
   100% { transform: rotate(360deg); }
 }
 
-/* Additional styles can be added based on your design preferences */
